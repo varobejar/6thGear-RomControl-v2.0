@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Rom Control</string>
+    <string name="app_name">Emotion Control</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -44,10 +44,10 @@
     <string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string>
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="restore_complete_toast">Restore complete</string>
-    <string name="cortinilla">Adjust StatusBar Expanded Header</string>
-    <string name="phone">Adjust Phone</string>
-    <string name="systemui">Adjust Type SystemUI</string>
-    <string name="statusbar">Adjust StatusBar</string>
+    <string name="cortinilla">StatusBar Expanded</string>
+    <string name="phone">Phone</string>
+    <string name="systemui">SystemUI Type</string>
+    <string name="statusbar">StatusBar</string>
     <string name="more_options">More options</string>
     <string name="set_theme">Set theme</string>
     <string name="backup_and_restore"><![CDATA[Backup & Restore]]></string>
@@ -63,8 +63,8 @@
     <string name="reboot_now_dialog_button">reboot now</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
-    <string name="launcher">Adjust Type Launcher</string>
-    <string name="bloqueo">Adjust Lookscreen</string>
+    <string name="launcher">Launcher Type</string>
+    <string name="bloqueo">Lookscreen</string>
     <string name="apk">Apk´s Emotion</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->

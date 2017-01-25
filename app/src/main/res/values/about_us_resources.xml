@@ -27,35 +27,35 @@
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
-        <item>Facebook</item>
-        <item>Our Site</item>
+        <item>HTCSpain</item>
+        <item>HTC manía</item>
         <item>XDA</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://www.htcspain.com/foro/rom-s-samsung-galaxy-note-4-iv-929/rom-tw-5-1-1-xxs1cpc2-26-marzo-emotion-revolution-r14-aroma-installer-y-rom-control-estable-y-fluida-emotroid-team-htcspain-59644/</item>
+        <item>http://www.htcmania.com/showthread.php?t=1121120/</item>
+        <item>https://forum.xda-developers.com/note-4/snapdragon-dev/twrom-emotion-revolution-note-iv-t2976107/</item>
     </string-array>
 
 
 
     <!--Team info arrays-->
     <array name="about_team_drawables">
+        <item>@drawable/icon_4</item>
         <item>@drawable/icon_5</item>
         <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
     </array>
     <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
+        <item>Jcanonico - DEVELOPER</item>
+        <item>Hanss - DEVELOPER</item>
+        <item>Varobejar - DEVELOPER</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://www.htcspain.com/foro/miembros/jcanonico/</item>
+        <item>http://www.htcspain.com/foro/miembros/hanss/</item>
+        <item>http://www.htcspain.com/foro/miembros/varobejar/</item>
     </string-array>
 
 
