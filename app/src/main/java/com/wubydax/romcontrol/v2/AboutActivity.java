@@ -34,7 +34,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 public class AboutActivity extends AppCompatActivity {
 
-    private Integer[] mContactUsIds, mTeamIds, mCreditsIds;
+    private Integer[] mContactUsIds, mTeamIds;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,28 +48,8 @@ public class AboutActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setUpAboutItems();
         setUpTeamItems();
-        setUpCreditsItems();
     }
 
-    private void setUpCreditsItems() {
-
-        String[] textItems = getResources().getStringArray(R.array.about_credits_names);
-        mCreditsIds = new Integer[textItems.length];
-        TypedArray typedArray = getResources().obtainTypedArray(R.array.about_credits_drawables);
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.aboutCreditsContainer);
-        assert linearLayout != null;
-        for (int i = 0; i < textItems.length; i++) {
-            View itemView = LayoutInflater.from(this).inflate(R.layout.about_people_item, linearLayout, false);
-
-            ((CircleImageView) itemView.findViewById(R.id.aboutPeopleIcon)).setImageResource(typedArray.getResourceId(i, -1));
-            ((TextView) itemView.findViewById(R.id.aboutPeopleText)).setText(textItems[i]);
-            int id = View.generateViewId();
-            itemView.setId(id);
-            mCreditsIds[i] = id;
-            linearLayout.addView(itemView, i);
-        }
-        typedArray.recycle();
-    }
 
     private void setUpTeamItems() {
         String[] textItems = getResources().getStringArray(R.array.about_team_names);
@@ -115,16 +95,12 @@ public class AboutActivity extends AppCompatActivity {
         String url = null;
         List contactIds = Arrays.asList(mContactUsIds);
         List teamIds = Arrays.asList(mTeamIds);
-        List creditsIds = Arrays.asList(mCreditsIds);
         if (contactIds.contains(id)) {
             linksList = Arrays.asList(getResources().getStringArray(R.array.about_contact_us_links));
             url = linksList.get(contactIds.indexOf(id));
         } else if (teamIds.contains(id)) {
             linksList = Arrays.asList(getResources().getStringArray(R.array.about_team_links));
             url = linksList.get(teamIds.indexOf(id));
-        } else if(creditsIds.contains(id)) {
-            linksList = Arrays.asList(getResources().getStringArray(R.array.about_credits_links));
-            url = linksList.get(creditsIds.indexOf(id));
         }
         if(url != null) {
             openUrl(url);
