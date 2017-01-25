@@ -66,6 +66,21 @@
     <string name="launcher">Launcher Type</string>
     <string name="bloqueo">Lookscreen</string>
     <string name="apk">Apk´s Emotion</string>
+    <string name="S_View_window_wallpaper">S_View_window_wallpaper</string>
+    <string name="Choose_Background_for_SView_Window">Choose_Background_for_SView_Window</string>
+    <string name="UPSM_Manager">UPSM_Manager</string>
+    <string name="Enable_apps_on_UPSM">Enable_apps_on_UPSM</string>
+    <string name="SuperSu">SuperSu</string>
+    <string name="Root_Access_Control">Root_Access_Control</string>
+    <string name="S5_Toolbox">S5_Toolbox</string>
+    <string name="Greenify">Greenify</string>
+    <string name="Hibernate_Apks">Hibernate_Apks</string>
+    <string name="Busybox">Busybox</string>
+    <string name="Busybox_On_Rails">Busybox_On_Rails</string>
+    <string name="texdroider">texdroider</string>
+    <string name="adaway">adaway</string>
+    <string name="Development_Settings">Development_Settings</string>
+    <string name="Go_to_Development_Settings_Menu">Go_to_Development_Settings_Menu</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

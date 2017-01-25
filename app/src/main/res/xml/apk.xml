@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <PreferenceScreen android:icon="@drawable/upsm" android:title="@string/UPSM_Manager" android:summary="@string/Enable_apps_on_UPSM">
+        <intent android:targetPackage="mobi.xperiacle.upsm.manager" android:action="android.intent.action.MAIN" android:targetClass="mobi.xperiacle.upsm.manager.MainActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/supersu" android:title="@string/SuperSu" android:summary="@string/Root_Access_Control">
+        <intent android:targetPackage="eu.chainfire.supersu" android:action="android.intent.action.MAIN" android:targetClass="eu.chainfire.supersu.MainActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/s5toolbox" android:title="@string/S5_Toolbox" android:summary="@string/S5_Toolbox">
+        <intent android:targetPackage="mobi.xperiacle.s5toolbox.addon" android:action="android.intent.action.MAIN" android:targetClass="mobi.xperiacle.s5toolbox.addon.ToolboxActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/greenify" android:title="@string/Greenify" android:summary="@string/Hibernate_Apks">
+        <intent android:targetPackage="com.oasisfeng.greenify" android:action="android.intent.action.MAIN" android:targetClass="com.oasisfeng.greenify.GreenifyActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/busybox" android:title="@string/Busybox" android:key="me.timos.busyboxonrails.ActivityMain" android:summary="@string/Busybox_On_Rails">
+        <intent android:targetPackage="me.timos.busyboxonrails" android:action="android.intent.action.MAIN" android:targetClass="me.timos.busyboxonrails.ActivityMain" />
+    </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/texdroider" android:title="@string/texdroider">
+        <intent android:targetPackage="com.texdroider.texdroider_dpi" android:action="android.intent.action.MAIN" android:targetClass="com.texdroider.texdroider_dpi.texdroider_dpi" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/adaway" android:title="@string/adaway">
+        <intent android:targetPackage="org.adaway" android:action="android.intent.action.MAIN" android:targetClass="org.adaway.ui.BaseActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/develop" android:title="@string/Development_Settings" android:summary="@string/Go_to_Development_Settings_Menu">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.DevelopmentSettings" />
+    </PreferenceScreen>
 </PreferenceScreen>
