@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Backgrounds">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="header bg color" android:key="header_bg_color" android:defaultValue="#ff3ba0bf" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Brightness Slider Bg Color" android:key="slider_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Brightness Back Color" android:key="brightness_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
