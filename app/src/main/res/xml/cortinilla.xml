@@ -5,5 +5,13 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="header bg color" android:key="header_bg_color" android:defaultValue="#ff3ba0bf" alphaSlider="true" hexValue="true" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Brightness Slider Bg Color" android:key="slider_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Brightness Back Color" android:key="brightness_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toogle Background color" android:key="toggle_bg_color2" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Sfinder Background color" android:key="sfinder_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Icon Wifi color" android:key="db_inkeffect_statusbar_wifi_picker" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Icon Signal color" android:key="db_inkeffect_statusbar_Signal_picker" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Status Bar Icon color" android:key="statusbar_icon_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Batery Text color" android:key="battery_text_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Batery Icon color" android:key="battery_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display SFinder/QConnect Panel" android:key="quick_connect_toggle" android:summaryOn="Panel is hidden" android:summaryOff="Panel is shown" />
     </PreferenceCategory>
 </PreferenceScreen>
