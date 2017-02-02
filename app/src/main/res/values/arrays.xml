@@ -150,4 +150,38 @@
         <item>13</item>
         <item>14</item>
     </string-array>
+    <string-array name="traffic_entries">
+        <item>Disabled</item>
+        <item>Outgoing</item>
+        <item>Incoming</item>
+        <item>Show Both</item>
+    </string-array>
+    <string-array name="traffic_unit_entries">
+        <item>Bits per second</item>
+        <item>Bytes per second</item>
+        <item>KiloBytes per second</item>
+    </string-array>
+    <string-array name="traffic_unit_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="traffic_update_entries">
+        <item>500 ms</item>
+        <item>1000 ms</item>
+        <item>1500 ms</item>
+        <item>2000 ms</item>
+    </string-array>
+    <string-array name="traffic_update_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="traffic_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>

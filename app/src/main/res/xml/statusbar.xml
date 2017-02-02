@@ -5,4 +5,12 @@
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Status Bar Icon color" android:key="statusbar_icon_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Batery Text color" android:key="battery_text_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Batery Icon color" android:key="battery_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <PreferenceCategory android:title="Internet_Meter">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Network_Speed_Color" android:key="network_traffic_color" android:summary="Color_of_network_speed_text" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/traffic_entries" android:title="Traffic_Meter_Type" android:key="network_traffic_state" android:defaultValue="1" android:entryValues="@array/traffic_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/traffic_update_entries" android:title="Meter_Update_Frequency" android:key="network_traffic_period" android:defaultValue="2" android:entryValues="@array/traffic_update_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/traffic_unit_entries" android:title="Display_Unit" android:key="network_traffic_unit" android:defaultValue="3" android:entryValues="@array/traffic_unit_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Autohide_Meter" android:key="network_traffic_autohide" android:defaultValue="true" android:summaryOn="Network_traffic_will_autohide" android:summaryOff="Network_traffic_always_shown" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="100" android:title="Autohide_Threshold" android:key="network_traffic_autohide_threshold" android:defaultValue="10" min="0" unitsRight="Kb/s" />
+    </PreferenceCategory>
 </PreferenceScreen>
