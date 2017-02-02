@@ -13,4 +13,17 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Autohide_Meter" android:key="network_traffic_autohide" android:defaultValue="true" android:summaryOn="Network_traffic_will_autohide" android:summaryOff="Network_traffic_always_shown" />
         <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="100" android:title="Autohide_Threshold" android:key="network_traffic_autohide_threshold" android:defaultValue="10" min="0" unitsRight="Kb/s" />
     </PreferenceCategory>
+    <PreferenceCategory android:title="Battery_Changer">
+        <PreferenceScreen android:title="3Minit_Battery_Mod" android:summary="Choose_Your_Fav_Battery">
+            <intent android:targetPackage="com.three.minit.minitbatterysettings" android:targetClass="com.three.minit.minitbatterysettings.MainActivity" />
+        </PreferenceScreen>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show_Hide_Stock_Battery" android:key="hide_battery" android:defaultValue="true" android:summaryOn="Stock_Battery_shown" android:summaryOff="Stock_Battery_is_hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show_Hide_3Minit_Battery" android:key="minit_battery_visible" android:defaultValue="false" android:summaryOn="3Minit_Battery_shown" android:summaryOff="3Minit_Battery_is_hidden" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Battery_Icon_Settings">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display_Percentage" android:key="display_battery_percentage" android:summaryOn="Battery_text_shown" android:summaryOff="Battery_text_is_hidden" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Percentage_Color" android:key="battery_text_color" android:summary="Choose_battery_percent_color" android:dependency="display_battery_percentage" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display_Percentage_inside_Battery_Icon" android:key="status_bar_show_battery_percent" android:defaultValue="false" android:summaryOn="Text_shown" android:summaryOff="Text_hidden" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery_Color" android:key="battery_color" android:summary="Choose_color_of_battery" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>

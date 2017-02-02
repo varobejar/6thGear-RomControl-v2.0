@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <PreferenceCategory android:title="type systemui">
+        <PreferenceScreen android:title="SystemUI_Appearance_Stock" android:key="script#systemui_stock" android:summary="Appearance_Stock_with_all_extras" />
+        <PreferenceScreen android:title="SystemUI_negro" android:key="script#systemui_negro" android:summary="negro" />
+    </PreferenceCategory>
 </PreferenceScreen>
