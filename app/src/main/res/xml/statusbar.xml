@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Icon Wifi color" android:key="db_inkeffect_statusbar_wifi_picker" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Icon Signal color" android:key="db_inkeffect_statusbar_Signal_picker" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Status Bar Icon color" android:key="statusbar_icon_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Batery Text color" android:key="battery_text_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Batery Icon color" android:key="battery_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
 </PreferenceScreen>

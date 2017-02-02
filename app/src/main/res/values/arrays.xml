@@ -13,7 +13,6 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-
     <string-array name="test_list_entries">
         <item>One</item>
         <item>Two</item>
@@ -34,7 +33,6 @@
         <item>Backup data</item>
         <item>Restore data</item>
     </string-array>
-
     <string-array name="thumbnail_items">
         <item>Icon 1</item>
         <item>Icon 2</item>
@@ -47,7 +45,6 @@
         <item>@drawable/icon_6</item>
         <item>@drawable/icon_5</item>
     </array>
-
     <string-array name="custom_bg_type_entries">
         <item>Image</item>
         <item>Solid color</item>
@@ -63,16 +60,13 @@
         <item>Bottom to top</item>
         <item>Left to right</item>
         <item>Right to left</item>
-
     </string-array>
     <string-array name="gradient_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-
     </string-array>
-
     <string-array name="crop_entries">
         <item>Center crop</item>
         <item>Center inside</item>
@@ -82,5 +76,78 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="toggle_entries">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="toggle_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_entries">
+        <item>Default</item>
+        <item>Leater Round</item>
+        <item>Leater Rounded</item>
+        <item>Leater Square</item>
+        <item>Dark light</item>
+        <item>Dished Metal</item>
+        <item>Metal circle</item>
+        <item>Green Glow</item>
+        <item>Sunstar</item>
+        <item>Chrome Square</item>
+        <item>Chrome</item>
+        <item>Bubble</item>
+        <item>LG-Sq</item>
+        <item>Sunrise</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
     </string-array>
 </resources>
