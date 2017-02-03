@@ -10,5 +10,8 @@
         <PreferenceScreen android:icon="@drawable/twswipe" android:title="TW_Swipe">
             <intent android:targetPackage="com.wubydax.geartwswipe" android:action="android.intent.action.MAIN" android:targetClass="com.wubydax.geartwswipe.ResetDialogActivity" />
         </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/themer" android:title="Galaxy_Icon_Themer">
+            <intent android:targetPackage="mobi.xperiacle.touchwiz.themer" android:action="android.intent.action.MAIN" android:targetClass="mobi.xperiacle.touchwiz.themer.IconThemer" />
+        </PreferenceScreen>
     </PreferenceCategory>
 </PreferenceScreen>
