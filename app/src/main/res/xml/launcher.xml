@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Types Launcher">
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="StockTw" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="stocktw.sh"/>
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="6x5" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="6tw.sh"/>
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="7x5" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="7tw.sh"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Apk Launcher">
+        <PreferenceScreen android:icon="@drawable/twswipe" android:title="TW_Swipe">
+            <intent android:targetPackage="com.wubydax.geartwswipe" android:action="android.intent.action.MAIN" android:targetClass="com.wubydax.geartwswipe.ResetDialogActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
 </PreferenceScreen>
