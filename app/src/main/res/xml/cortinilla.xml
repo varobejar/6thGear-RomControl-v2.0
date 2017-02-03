@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Backgrounds">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="header bg color" android:key="header_bg_color" android:defaultValue="#ff3ba0bf" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Brightness Slider Bg Color" android:key="slider_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Brightness Back Color" android:key="brightness_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toogle Background color" android:key="toggle_bg_color2" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Sfinder Background color" android:key="sfinder_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display SFinder/QConnect Panel" android:key="quick_connect_toggle" android:summaryOn="Panel is hidden" android:summaryOff="Panel is shown" />
+    </PreferenceCategory>
     <PreferenceCategory android:title="Toogles">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toggle_entries" android:title="Visible_Toggles_Shown" android:key="toggle_number" android:defaultValue="0" android:entryValues="@array/toggle_values" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Toggle_Text_Preference" android:key="tiles_text_visibility2" android:summaryOn="Text_is_shown" android:summaryOff="Text_is_hidden" />
@@ -8,6 +16,12 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle_Text_Color" android:key="toggle_text_color" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle_Circle_Color" android:key="toggle_buttons_background_color2" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toggle_Color" android:key="toggle_on_color2" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Sfinder/Qconnect">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display SFinder/QConnect Panel" android:key="quick_connect_toggle2" android:summaryOn="Panel is hidden" android:summaryOff="Panel is shown" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notification_Brightness">
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Notification_Brightness_Visibility" android:key="notification_panel_brightness_adjustment" android:defaultValue="false" android:summaryOn="Brightness_slider_is_visible" android:summaryOff="Brightness_slider_hidden" />
     </PreferenceCategory>
     <PreferenceCategory android:title="Mem Kill">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Memory_Cleaner" android:key="memCleanView" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
@@ -18,15 +32,13 @@
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Device_Info_Header_Color2" android:key="device_info_color2" android:summary="Choose_color" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Device_Info" android:key="device_info" android:summaryOn="Device_Info_currently_removed" android:summaryOff="Currently_shown" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="Backgrounds">
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="header bg color" android:key="header_bg_color" android:defaultValue="#ff3ba0bf" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Brightness Slider Bg Color" android:key="slider_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Brightness Back Color" android:key="brightness_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Toogle Background color" android:key="toggle_bg_color2" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Sfinder Background color" android:key="sfinder_bg_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display SFinder/QConnect Panel" android:key="quick_connect_toggle" android:summaryOn="Panel is hidden" android:summaryOff="Panel is shown" />
-    </PreferenceCategory>
     <PreferenceCategory android:title="Notificacions">
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Notifications Colors" android:key="notification_background_color2" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Notifications Colors" android:key="notification_background_color2" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Disable_On_Going_Notifications">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Ongoing_Notifications" android:key="hide_ongoing_notif2" android:defaultValue="true" android:summaryOn="Currently_hidden" android:summaryOff="Currently_shown" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Heads_Up_Notifications">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Heads_Up_Notifications" android:key="heads_up_notifications_enabled" android:defaultValue="0" android:summaryOn="Heads_Up_Enabled" android:summaryOff="Heads_Up_Disabled" />
     </PreferenceCategory>
 </PreferenceScreen>

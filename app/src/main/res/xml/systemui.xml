@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="type systemui">
-        <PreferenceScreen android:title="SystemUI_Appearance_Stock" android:key="script#systemui_stock" android:summary="Appearance_Stock_with_all_extras" />
-        <PreferenceScreen android:title="SystemUI_negro" android:key="script#systemui_negro" android:summary="negro" />
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Types SystemUI">
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="SystemUI_Appearance_Stock" android:summary="Appearance_Stock_with_all_extras" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="systemui_stock.sh"/>
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="SystemUI Custom" android:summary="SystemUI with modifications" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="systemui_custom.sh"/>
     </PreferenceCategory>
 </PreferenceScreen>
