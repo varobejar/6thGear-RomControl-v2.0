@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Statusbar Clock Options" android:summary="Custom clock settings" />
+    <PreferenceScreen android:title="Position Reloj">
+        <intent android:targetPackage="com.potato.clock.main" android:action="android.intent.action.MAIN" android:targetClass="com.potato.clock.main.Main" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="Custom_Text_Options">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom_text" android:key="CustomTxt_toggle" android:defaultValue="true" android:summaryOn="summaryOn" android:summaryOff="summaryOff" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Change_custom_text_color" android:key="CustomTxt_color" android:summary="Choose_color" android:dependency="CustomTxt_toggle" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference android:title="Change_custom_text" android:key="CustomTxt_text" android:summary="Edit_text" android:dependency="CustomTxt_toggle" android:defaultValue="Emotion" android:dialogTitle="Edit_text" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Status Bar Backgrounds">
+        <PreferenceScreen android:title="Potato_Gradient" android:summary="StatusBar_Background">
+            <intent android:targetPackage="com.potato.gradientapp" android:action="android.intent.action.MAIN" android:targetClass="com.potato.gradientapp.MainActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Icon Wifi color" android:key="db_inkeffect_statusbar_wifi_picker" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Icon Signal color" android:key="db_inkeffect_statusbar_Signal_picker" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
     <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Status Bar Icon color" android:key="statusbar_icon_color" android:summary="Reboot SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />

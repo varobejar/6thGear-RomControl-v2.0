@@ -4,10 +4,11 @@
         <intent android:targetPackage="com.xpe.app.galaxy.lockscreen.effect" android:action="android.intent.action.MAIN" android:targetClass="com.xpe.app.galaxy.lockscreen.effect.MainActivity" />
     </PreferenceScreen>
     <PreferenceCategory android:title="Show_Hide_LockScreen_Elements" />
-        <SwitchPreference android:title="Camera_shortcut_in_Lockscreen" android:key="set_shortcuts_mode" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <SwitchPreference android:title="Show_All_Lockscreen_Info" android:key="lock_show_info" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <SwitchPreference android:title="Lockscreen_Date" android:key="lock_screen_date_and_year" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <SwitchPreference android:title="Lockscreen_Clock" android:key="lock_screen_show_clock" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <SwitchPreference android:title="Lockscreen_Weather_and_Steps" android:key="lock_additional_info" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
-        <SwitchPreference android:title="Swype_to_Unlock_Text" android:key="unlock_text" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Camera_shortcut_in_Lockscreen" android:key="set_shortcuts_mode" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show_All_Lockscreen_Info" android:key="lock_show_info" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Lockscreen_Date" android:key="lock_screen_date_and_year" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Lockscreen_Clock" android:key="lock_screen_show_clock" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Lockscreen_Weather_and_Steps" android:key="lock_additional_info" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Swype_to_Unlock_Text" android:key="unlock_text" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:defaultValue="1" android:key="set_shortcuts_phone" android:summaryOff="Hidden" android:summaryOn="Shown" android:title="Phone shortcut in Lockscreen" />
 </PreferenceScreen>

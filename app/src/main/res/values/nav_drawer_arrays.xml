@@ -26,7 +26,6 @@
     <array name="nav_menu_prefs_drawables">
         <item>@drawable/cortinilla</item>
         <item>@drawable/statusbar</item>
-        <item>@drawable/phone</item>
         <item>@drawable/launcher</item>
         <item>@drawable/systemui</item>
         <item>@drawable/bloqueo</item>
@@ -41,7 +40,6 @@
     <string-array name="nav_menu_prefs_titles">
         <item>@string/cortinilla</item>
         <item>@string/statusbar</item>
-        <item>@string/phone</item>
         <item>@string/launcher</item>
         <item>@string/systemui</item>
         <item>@string/bloqueo</item>
@@ -57,7 +55,6 @@
     <string-array name="nav_menu_xml_file_names" translatable="false">
         <item>cortinilla</item>
         <item>statusbar</item>
-        <item>phone</item>
         <item>launcher</item>
         <item>systemui</item>
         <item>bloqueo</item>
