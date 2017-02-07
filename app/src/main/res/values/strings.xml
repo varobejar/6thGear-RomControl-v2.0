@@ -14,16 +14,16 @@
 <resources>
     <string name="app_name">Emotion Control</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
 
     <string name="dialog_color_picker">Pick Color</string>
     <string name="press_color_to_apply">Press to apply</string>
     <string name="root_progress_dialog_title">Acquiring Root Access</string>
     <string name="root_progress_dialog_message">Please wait…</string>
     <string name="no_su_dialog_title">No root privileges</string>
-    <string name="no_su_dialog_message">We could not acquire root access on your device.\n\nMost of this app\'s functions can be performed without root access. However, you might experience problems with running scripts or rebooting.\n\nWe strongly recommend to allow root access on next request or allow such access in your Su client manually.</string>
-    <string name="no_su_dialog_dismiss_button_text">Whatever, man</string>
+    <string name="no_su_dialog_message" translatable="false">We could not acquire root access on your device.\n\nMost of this app\'s functions can be performed without root access. However, you might experience problems with running scripts or rebooting.\n\nWe strongly recommend to allow root access on next request or allow such access in your Su client manually.</string>
+    <string name="no_su_dialog_dismiss_button_text" translatable="false">Whatever, man</string>
     <string name="command_executed_success_toast">Executed successfully</string>
     <string name="root_tools_exception_toast">File not found or root denied</string>
     <string name="reboot_menu">Reboot menu</string>
@@ -39,7 +39,7 @@
     <string name="no_backup_dialog_title">No backup found on this device</string>
     <string name="no_backup_dialog_message">Would you like to create new backup now?</string>
     <string name="restore_confirm_dialog_title">Please confirm restore</string>
-    <string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
+    <string name="restore_confirm_message" translatable="false">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
     <string name="backup_complete_toast">Backup completed successfully. The backup file can be found at\n%1$s</string>
     <string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string>
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
@@ -50,36 +50,51 @@
     <string name="more_options">More options</string>
     <string name="set_theme">Set theme</string>
     <string name="backup_and_restore"><![CDATA[Backup & Restore]]></string>
-    <string name="changelog">Changelog</string>
+    <string name="changelog" translatable="false">Changelog</string>
     <string name="about_us">About us</string>
     <string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string>
     <string name="run_script_confirm_dialog_title">Confirmation required</string>
     <string name="run_script_confirm_dialog_positive_button">Yes, run</string>
     <string name="find_app">Find App</string>
     <string name="reboot_required_dialog_title">Device reboot required</string>
-    <string name="reboot_required_dialog_message">For this action to take effect, full device reboot is required. Would you like to reboot now?</string>
+    <string name="reboot_required_dialog_message" translatable="false">For this action to take effect, full device reboot is required. Would you like to reboot now?</string>
     <string name="reboot_later_negative_button">later</string>
     <string name="reboot_now_dialog_button">reboot now</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
-    <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
+    <string name="restore_dialog_description" translatable="false">This action will restore the following items to stock colors</string>
     <string name="launcher">Launcher Type</string>
     <string name="bloqueo">Lookscreen</string>
     <string name="apk">Apk´s Emotion</string>
-    <string name="S_View_window_wallpaper">S_View_window_wallpaper</string>
-    <string name="Choose_Background_for_SView_Window">Choose_Background_for_SView_Window</string>
-    <string name="UPSM_Manager">UPSM_Manager</string>
-    <string name="Enable_apps_on_UPSM">Enable_apps_on_UPSM</string>
+    <string name="S_View_window_wallpaper">S_View window wallpaper</string>
+    <string name="Choose_Background_for_SView_Window">Choose Background for SView Window</string>
+    <string name="UPSM_Manager" translatable="false">UPSM Manager</string>
+    <string name="Enable_apps_on_UPSM">Enable apps on UPSM</string>
     <string name="SuperSu">SuperSu</string>
-    <string name="Root_Access_Control">Root_Access_Control</string>
+    <string name="Root_Access_Control">Root Access Control</string>
     <string name="S5_Toolbox">S5_Toolbox</string>
     <string name="Greenify">Greenify</string>
-    <string name="Hibernate_Apks">Hibernate_Apks</string>
+    <string name="Hibernate_Apks">Hibernate Apks</string>
     <string name="Busybox">Busybox</string>
-    <string name="Busybox_On_Rails">Busybox_On_Rails</string>
-    <string name="texdroider">texdroider</string>
-    <string name="adaway">adaway</string>
+    <string name="Busybox_On_Rails">Busybox On Rails</string>
+    <string name="texdroider" translatable="false">texdroider</string>
+    <string name="adaway" translatable="false">adaway</string>
     <string name="Development_Settings">Development_Settings</string>
-    <string name="Go_to_Development_Settings_Menu">Go_to_Development_Settings_Menu</string>
+    <string name="Go_to_Development_Settings_Menu">Go to Development Settings Menu</string>
+    <string name="Lockscreen_Effects">Lockscreen Effects</string>
+    <string name="Effects_Unlocked">Configure Lockscreen Effects</string>
+    <string name="Show_Hide_LockScreen_Elements">Show Hide LockScreen Elements</string>
+    <string name="Camera_shortcut_in_Lockscreen">Camera shortcut in Lockscreen</string>
+    <string name="Show_All_Lockscreen_Info">Show All Lockscreen Info</string>
+    <string name="Lockscreen_Date">Lockscreen Date</string>
+    <string name="Lockscreen_Clock">Lockscreen Clock</string>
+    <string name="Lockscreen_Weather_and_Steps">Lockscreen Weather and Steps</string>
+    <string name="Swype_to_Unlock_Text">Swype to Unlock Text</string>
+    <string name="Phone_shortcut_in_Lockscreen">Phone shortcut in Lockscreen</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+
+
+
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>
