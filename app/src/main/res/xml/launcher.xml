@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="Types Launcher">
-        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="StockTw" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="stocktw.sh"/>
-        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="6x5" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="6tw.sh"/>
-        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="7x5" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="7tw.sh"/>
+    <PreferenceCategory android:title="@string/Types_Launcher">
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="@string/StockTw" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="stocktw.sh"/>
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="@string/launcher_six" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="6tw.sh"/>
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="@string/launcher_seven" app:packageNameToKill="com.android.launcher2" app:isSilent="false" app:rebootOptions="imminent" app:scriptFileName="7tw.sh"/>
     </PreferenceCategory>
-    <PreferenceCategory android:title="Apk Launcher">
-        <PreferenceScreen android:icon="@drawable/twswipe" android:title="TW_Swipe">
+    <PreferenceCategory android:title="@string/Apk_Launcher">
+        <PreferenceScreen android:icon="@drawable/twswipe" android:title="@string/TW_Swipe">
             <intent android:targetPackage="com.wubydax.geartwswipe" android:action="android.intent.action.MAIN" android:targetClass="com.wubydax.geartwswipe.ResetDialogActivity" />
         </PreferenceScreen>
-        <PreferenceScreen android:icon="@drawable/themer" android:title="Galaxy_Icon_Themer">
+        <PreferenceScreen android:icon="@drawable/themer" android:title="@string/Galaxy_Icon_Themer">
             <intent android:targetPackage="mobi.xperiacle.touchwiz.themer" android:action="android.intent.action.MAIN" android:targetClass="mobi.xperiacle.touchwiz.themer.IconThemer" />
         </PreferenceScreen>
     </PreferenceCategory>

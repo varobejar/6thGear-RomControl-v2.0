@@ -92,6 +92,54 @@
     <string name="Phone_shortcut_in_Lockscreen">Phone shortcut in Lockscreen</string>
     <string name="On">On</string>
     <string name="Off">Off</string>
+    <string name="Shown">Shown</string>
+    <string name="Hidden">Hidden</string>
+    <string name="Sfinder_Qconnect">Sfinder Qconnect</string>
+    <string name="Display_SFinder">Display SFinder</string>
+    <string name="Notification_Brightness">Notification Brightness</string>
+    <string name="Notification_Brightness_Visibility">Notification Brightness Visibility</string>
+    <string name="Backgrounds">Backgrounds</string>
+    <string name="header_bg_color">header bg color</string>
+    <string name="Brightness_Slider">Brightness Slider</string>
+    <string name="Reboot_SystemUI">Reboot SystemUI</string>
+    <string name="Brightness_Back_Color">Brightness Back Color</string>
+    <string name="Toogle_Background_color">Toogle Background color</string>
+    <string name="Sfinder_Background_color">Sfinder Background color</string>
+    <string name="Toogles">Toogles</string>
+    <string name="Visible_Toggles_Shown">Visible Toggles Shown</string>
+    <string name="Toggle_Text">Toggle_Text</string>
+    <string name="Toggle_Buttons_Background">Toggle Buttons Background</string>
+    <string name="Toggle_Text_Color">Toggle Text Color</string>
+    <string name="Toggle_Circle_Color">Toggle Circle Color</string>
+    <string name="Toggle_Color">Toggle Color</string>
+    <string name="Mem_Kill">Mem Kill</string>
+    <string name="Memory_Cleaner">Memory Cleaner</string>
+    <string name="Memory_Cleaner_Color">Memory Cleaner Color</string>
+    <string name="Device_Info_Header">Device Info Header</string>
+    <string name="color_title">Color Title</string>
+    <string name="color_sumary">Color Summary</string>
+    <string name="Device_Info_visibility">Device Info visibility</string>
+    <string name="Notificacions">Notificacions</string>
+    <string name="Notifications_Colors">Notifications Colors</string>
+    <string name="Disable_On_Going_Notifications">Disable On Going Notifications</string>
+    <string name="Ongoing_Notifications">Ongoing Notifications</string>
+    <string name="Heads_Up_Notifications">Heads Up Notifications</string>
+    <string name="Types_Launcher">Types Launcher</string>
+    <string name="StockTw">StockTw</string>
+    <string name="launcher_six">Launcher 6x5</string>
+    <string name="launcher_seven">Launcher 7x5</string>
+    <string name="Apk_Launcher">Apk Launcher</string>
+    <string name="TW_Swipe">TW Swipe</string>
+    <string name="Galaxy_Icon_Themer">Galaxy Icon Themer</string>
+    <string name="Off">Off</string>
+    <string name="Off">Off</string>
+    <string name="Off">Off</string>
+    <string name="Off">Off</string>
+    <string name="Off">Off</string>
+    <string name="Off">Off</string>
+
+
+
 
 
 
