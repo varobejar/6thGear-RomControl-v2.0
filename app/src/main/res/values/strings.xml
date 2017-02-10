@@ -131,18 +131,55 @@
     <string name="Apk_Launcher">Apk Launcher</string>
     <string name="TW_Swipe">TW Swipe</string>
     <string name="Galaxy_Icon_Themer">Galaxy Icon Themer</string>
-    <string name="Off">Off</string>
-    <string name="Off">Off</string>
-    <string name="Off">Off</string>
-    <string name="Off">Off</string>
-    <string name="Off">Off</string>
-    <string name="Off">Off</string>
-
-
-
-
-
-
-
+    <string name="Statusbar_Clock">Statusbar Clock Options</string>
+    <string name="Custom_clock">Custom clock Settings</string>
+    <string name="Position_Reloj">Position Reloj</string>
+    <string name="Custom_Text_Options">Custom Text Options</string>
+    <string name="Custom_text">Custom text</string>
+    <string name="Change_custom_text_color">"Change custom text color</string>
+    <string name="Choose_color">Choose color</string>
+    <string name="Change_custom_text">Change custom text</string>
+    <string name="Edit_text">Edit text</string>
+    <string name="Status_Bar_Backgrounds">Status Bar Backgrounds</string>
+    <string name="Potato_Gradient">Potato Gradient</string>
+    <string name="StatusBar_Background">StatusBar Background</string>
+    <string name="Icon_Wifi_color">Icon Wifi color</string>
+    <string name="Icon_Signal_color">Icon Signal color</string>
+    <string name="Status_Bar_Icon_color">Status Bar Icon color</string>
+    <string name="Batery_Text_color">Batery Text color</string>
+    <string name="Batery_Icon_color">Batery Icon color</string>
+    <string name="Internet_Meter">Internet Meter</string>
+    <string name="Network_Speed_Color">Network Speed Color</string>
+    <string name="Color_of_network_speed_text">Color of network speed text</string>
+    <string name="Traffic_Meter_Type">Traffic Meter Type</string>
+    <string name="Meter_Update_Frequency">Meter Update Frequency</string>
+    <string name="Display_Unit">Display Unit</string>
+    <string name="Autohide_Meter">Autohide Meter</string>
+    <string name="Network_traffic_will_autohide">Network traffic will autohide</string>
+    <string name="Network_traffic_always_shown">Network traffic always shown</string>
+    <string name="Autohide_Threshold">Autohide Threshold</string>
+    <string name="Battery_Changer">Battery Changer</string>
+    <string name="Minit_Battery_Mod">3Minit Battery Mod</string>
+    <string name="Choose_Your_Fav_Battery">Choose Your Fav Battery</string>
+    <string name="Show_Hide_Stock_Battery">Show Hide Stock Battery</string>
+    <string name="Stock_Battery_shown">Stock Battery shown</string>
+    <string name="Stock_Battery_is_hidden">Stock Battery is hidden</string>
+    <string name="Show_Hide_3Minit_Battery">Show Hide 3Minit Battery</string>
+    <string name="Minit_Battery_shown">3Minit_Battery_shown</string>
+    <string name="Minit_Battery_is_hidden">Minit Battery is hidden</string>
+    <string name="Battery_Icon_Settings">Battery Icon Settings</string>
+    <string name="Display_Percentage">Display Percentage</string>
+    <string name="Battery_text_shown">Battery text shown</string>
+    <string name="Battery_text_is_hidden">Battery text is hidden</string>
+    <string name="Percentage_Color">Percentage Color</string>
+    <string name="Choose_battery_percent_color">Choose battery percent color</string>
+    <string name="Display_Percentage_inside_Battery_Icon">Display Percentage inside Battery Icon</string>
+    <string name="Battery_Color">Battery Color</string>
+    <string name="Choose_color_of_battery">Choose color of battery</string>
+    <string name="Types_SystemUI">Types SystemUI</string>
+    <string name="SystemUI_Appearance_Stock">SystemUI Appearance Stock</string>
+    <string name="Appearance_Stock_with_all_extras">Appearance Stock with all extras</string>
+    <string name="SystemUI_Custom">SystemUI Custom</string>
+    <string name="SystemUI_with_modifications">SystemUI with modifications</string>
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>
