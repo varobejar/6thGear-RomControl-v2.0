@@ -90,10 +90,10 @@
     <string name="Shown">Mostrar</string>
     <string name="StockTw">Launcher stock</string>
     <string name="TW_Swipe">Launcher Swipe</string>
-    <string name="Toggle_Buttons_Background">Fondo boton toogles</string>
+    <string name="Toggle_Buttons_Background">Boton toogles</string>
     <string name="Toggle_Circle_Color">Color circulo toogles</string>
     <string name="Toggle_Color">Color Toogle</string>
-    <string name="Toggle_Text">Color Texto</string>
+    <string name="Toggle_Text">Texto Toogles</string>
     <string name="Toggle_Text_Color">Color Texto de toogles</string>
     <string name="Toogle_Background_color">Fondo Toogles</string>
     <string name="Toogles">Toogles</string>

@@ -19,14 +19,14 @@
 
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
-    <array name="about_contact_us_drawables">
+    <array name="about_contact_us_drawables" translatable="false">
         <item>@drawable/icon_2</item>
         <item>@drawable/icon_1</item>
         <item>@drawable/icon_3</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
-    <string-array name="about_contact_us_text">
+    <string-array name="about_contact_us_text" translatable="false">
         <item>HTCSpain</item>
         <item>HTC manía</item>
         <item>XDA</item>
@@ -42,12 +42,12 @@
 
 
     <!--Team info arrays-->
-    <array name="about_team_drawables">
+    <array name="about_team_drawables" translatable="false">
         <item>@drawable/icon_4</item>
         <item>@drawable/icon_5</item>
         <item>@drawable/icon_6</item>
     </array>
-    <string-array name="about_team_names">
+    <string-array name="about_team_names" translatable="false">
         <item>Jcanonico - DEVELOPER</item>
         <item>Hanss - DEVELOPER</item>
         <item>Varobejar - DEVELOPER</item>

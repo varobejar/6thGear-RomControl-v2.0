@@ -5,7 +5,7 @@
         <intent android:targetPackage="com.potato.clock.main" android:action="android.intent.action.MAIN" android:targetClass="com.potato.clock.main.Main" />
     </PreferenceScreen>
     <PreferenceCategory android:title="@string/Custom_Text_Options">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Custom_text" android:key="CustomTxt_toggle" android:defaultValue="true" android:summaryOn="string/On" android:summaryOff="string/Off" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Custom_text" android:key="CustomTxt_toggle" android:defaultValue="true" android:summaryOn="@string/On" android:summaryOff="string/Off" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Change_custom_text_color" android:key="CustomTxt_color" android:summary="@string/Choose_color" android:dependency="CustomTxt_toggle" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
         <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference android:title="@string/Change_custom_text" android:key="CustomTxt_text" android:summary="@string/Edit_text" android:dependency="CustomTxt_toggle" android:defaultValue="Emotion" android:dialogTitle="@string/Edit_text" />
     </PreferenceCategory>
@@ -14,30 +14,30 @@
             <intent android:targetPackage="com.potato.gradientapp" android:action="android.intent.action.MAIN" android:targetClass="com.potato.gradientapp.MainActivity" />
         </PreferenceScreen>
     </PreferenceCategory>
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Icon_Wifi_color" android:key="db_inkeffect_statusbar_wifi_picker" android:summary="string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Icon_Signal_color" android:key="db_inkeffect_statusbar_Signal_picker" android:summary="string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Status_Bar_Icon_color" android:key="statusbar_icon_color" android:summary="string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Batery_Text_color" android:key="battery_text_color" android:summary="string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
-    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Batery_Icon_color" android:key="battery_color" android:summary="string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Icon_Wifi_color" android:key="db_inkeffect_statusbar_wifi_picker" android:summary="@string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Icon_Signal_color" android:key="db_inkeffect_statusbar_Signal_picker" android:summary="@string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Status_Bar_Icon_color" android:key="statusbar_icon_color" android:summary="@string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Batery_Text_color" android:key="battery_text_color" android:summary="@string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Batery_Icon_color" android:key="battery_color" android:summary="@string/Reboot_SystemUI" android:defaultValue="#fafafafa" alphaSlider="true" hexValue="true" />
     <PreferenceCategory android:title="@string/Internet_Meter">
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Network_Speed_Color" android:key="network_traffic_color" android:summary="string/Color_of_network_speed_text" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Network_Speed_Color" android:key="network_traffic_color" android:summary="@string/Color_of_network_speed_text" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/traffic_entries" android:title="@string/Traffic_Meter_Type" android:key="network_traffic_state" android:defaultValue="1" android:entryValues="@array/traffic_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/traffic_update_entries" android:title="@string/Meter_Update_Frequency" android:key="network_traffic_period" android:defaultValue="2" android:entryValues="@array/traffic_update_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/traffic_unit_entries" android:title="@string/Display_Unit" android:key="network_traffic_unit" android:defaultValue="3" android:entryValues="@array/traffic_unit_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Autohide_Meter" android:key="network_traffic_autohide" android:defaultValue="true" android:summaryOn="string/Network_traffic_will_autohide" android:summaryOff="string/Network_traffic_always_shown" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Autohide_Meter" android:key="network_traffic_autohide" android:defaultValue="true" android:summaryOn="@string/Network_traffic_will_autohide" android:summaryOff="string/Network_traffic_always_shown" />
         <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="100" android:title="@string/Autohide_Threshold" android:key="network_traffic_autohide_threshold" android:defaultValue="10" min="0" unitsRight="Kb/s" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/Battery_Changer">
         <PreferenceScreen android:title="@string/Minit_Battery_Mod" android:summary="@string/Choose_Your_Fav_Battery">
             <intent android:targetPackage="com.three.minit.minitbatterysettings" android:targetClass="com.three.minit.minitbatterysettings.MainActivity" />
         </PreferenceScreen>
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Show_Hide_Stock_Battery" android:key="hide_battery" android:defaultValue="true" android:summaryOn="string/Stock_Battery_shown" android:summaryOff="string/Stock_Battery_is_hidden" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Show_Hide_3Minit_Battery" android:key="minit_battery_visible" android:defaultValue="false" android:summaryOn="string/Minit_Battery_shown" android:summaryOff="string/Minit_Battery_is_hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Show_Hide_Stock_Battery" android:key="hide_battery" android:defaultValue="true" android:summaryOn="@string/Stock_Battery_shown" android:summaryOff="string/Stock_Battery_is_hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Show_Hide_3Minit_Battery" android:key="minit_battery_visible" android:defaultValue="false" android:summaryOn="@string/Minit_Battery_shown" android:summaryOff="string/Minit_Battery_is_hidden" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/Battery_Icon_Settings">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Display_Percentage" android:key="display_battery_percentage" android:summaryOn="string/Battery_text_shown" android:summaryOff="string/Battery_text_is_hidden" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Percentage_Color" android:key="battery_text_color" android:summary="string/Choose_battery_percent_color" android:dependency="display_battery_percentage" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Display_Percentage" android:key="display_battery_percentage" android:summaryOn="@string/Battery_text_shown" android:summaryOff="string/Battery_text_is_hidden" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Percentage_Color" android:key="battery_text_color" android:summary="@string/Choose_battery_percent_color" android:dependency="display_battery_percentage" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Display_Percentage_inside_Battery_Icon" android:key="status_bar_show_battery_percent" android:defaultValue="false" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Battery_Color" android:key="battery_color" android:summary="string/Choose_color_of_battery" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Battery_Color" android:key="battery_color" android:summary="@string/Choose_color_of_battery" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
     </PreferenceCategory>
 </PreferenceScreen>

@@ -13,7 +13,7 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string-array name="test_list_entries">
+    <string-array name="test_list_entries" translatable="false">
         <item>One</item>
         <item>Two</item>
         <item>Three</item>
@@ -25,15 +25,15 @@
         <item>3</item>
         <item>20</item>
     </string-array>
-    <string-array name="theme_items">
+    <string-array name="theme_items" translatable="false">
         <item>Light theme</item>
         <item>Dark theme</item>
     </string-array>
-    <string-array name="backup_restore_items">
+    <string-array name="backup_restore_items" translatable="false">
         <item>Backup data</item>
         <item>Restore data</item>
     </string-array>
-    <string-array name="thumbnail_items">
+    <string-array name="thumbnail_items" translatable="false">
         <item>Icon 1</item>
         <item>Icon 2</item>
     </string-array>
@@ -41,11 +41,11 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <array name="thumbnail_drawables">
+    <array name="thumbnail_drawables" translatable="false">
         <item>@drawable/icon_6</item>
         <item>@drawable/icon_5</item>
     </array>
-    <string-array name="custom_bg_type_entries">
+    <string-array name="custom_bg_type_entries" translatable="false">
         <item>Image</item>
         <item>Solid color</item>
         <item>Gradient</item>
@@ -55,7 +55,7 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="gradient_entries">
+    <string-array name="gradient_entries" translatable="false">
         <item>Top to bottom</item>
         <item>Bottom to top</item>
         <item>Left to right</item>
@@ -67,7 +67,7 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-    <string-array name="crop_entries">
+    <string-array name="crop_entries" translatable="false">
         <item>Center crop</item>
         <item>Center inside</item>
         <item>Fit XY</item>
@@ -77,7 +77,7 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="toggle_entries">
+    <string-array name="toggle_entries" translatable="false">
         <item>3</item>
         <item>4</item>
         <item>5</item>
@@ -87,7 +87,7 @@
         <item>9</item>
         <item>10</item>
     </string-array>
-    <string-array name="toggle_values">
+    <string-array name="toggle_values" translatable="false">
         <item>3</item>
         <item>4</item>
         <item>5</item>
@@ -118,7 +118,7 @@
         <item>30</item>
         <item>31</item>
     </string-array>
-    <string-array name="toggle_buttons_background_entries">
+    <string-array name="toggle_buttons_background_entries" translatable="false">
         <item>Default</item>
         <item>Leater Round</item>
         <item>Leater Rounded</item>
@@ -134,7 +134,7 @@
         <item>LG-Sq</item>
         <item>Sunrise</item>
     </string-array>
-    <string-array name="toggle_buttons_background_values">
+    <string-array name="toggle_buttons_background_values" translatable="false">
         <item>0</item>
         <item>2</item>
         <item>3</item>
@@ -150,35 +150,35 @@
         <item>13</item>
         <item>14</item>
     </string-array>
-    <string-array name="traffic_entries">
+    <string-array name="traffic_entries" translatable="false">
         <item>Disabled</item>
         <item>Outgoing</item>
         <item>Incoming</item>
         <item>Show Both</item>
     </string-array>
-    <string-array name="traffic_unit_entries">
+    <string-array name="traffic_unit_entries" translatable="false">
         <item>Bits per second</item>
         <item>Bytes per second</item>
         <item>KiloBytes per second</item>
     </string-array>
-    <string-array name="traffic_unit_values">
+    <string-array name="traffic_unit_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="traffic_update_entries">
+    <string-array name="traffic_update_entries" translatable="false">
         <item>500 ms</item>
         <item>1000 ms</item>
         <item>1500 ms</item>
         <item>2000 ms</item>
     </string-array>
-    <string-array name="traffic_update_values">
+    <string-array name="traffic_update_values" translatable="false">
         <item>500</item>
         <item>1000</item>
         <item>1500</item>
         <item>2000</item>
     </string-array>
-    <string-array name="traffic_values">
+    <string-array name="traffic_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
