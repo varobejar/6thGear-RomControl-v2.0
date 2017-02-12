@@ -25,11 +25,11 @@
         <item>3</item>
         <item>20</item>
     </string-array>
-    <string-array name="theme_items" translatable="false">
+    <string-array name="theme_items">
         <item>Light theme</item>
         <item>Dark theme</item>
     </string-array>
-    <string-array name="backup_restore_items" translatable="false">
+    <string-array name="backup_restore_items">
         <item>Backup data</item>
         <item>Restore data</item>
     </string-array>
@@ -45,7 +45,7 @@
         <item>@drawable/icon_6</item>
         <item>@drawable/icon_5</item>
     </array>
-    <string-array name="custom_bg_type_entries" translatable="false">
+    <string-array name="custom_bg_type_entries">
         <item>Image</item>
         <item>Solid color</item>
         <item>Gradient</item>
@@ -55,7 +55,7 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="gradient_entries" translatable="false">
+    <string-array name="gradient_entries">
         <item>Top to bottom</item>
         <item>Bottom to top</item>
         <item>Left to right</item>
@@ -150,13 +150,13 @@
         <item>13</item>
         <item>14</item>
     </string-array>
-    <string-array name="traffic_entries" translatable="false">
+    <string-array name="traffic_entries">
         <item>Disabled</item>
         <item>Outgoing</item>
         <item>Incoming</item>
         <item>Show Both</item>
     </string-array>
-    <string-array name="traffic_unit_entries" translatable="false">
+    <string-array name="traffic_unit_entries">
         <item>Bits per second</item>
         <item>Bytes per second</item>
         <item>KiloBytes per second</item>

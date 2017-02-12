@@ -23,7 +23,7 @@
         <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/Notification_Brightness_Visibility" android:key="notification_panel_brightness_adjustment" android:defaultValue="true" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/Mem_Kill">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Memory_Cleaner" android:key="memCleanView" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Memory_Cleaner" android:key="memCleanView" android:defaultValue="false" android:summaryOn="@string/On" android:summaryOff="@string/Off" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Memory_Cleaner_Color" android:key="memkiller_color" android:defaultValue="#fafafafa" android:dialogTitle="Choose color" alphaSlider="true" hexValue="true" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/Device_Info_Header">
