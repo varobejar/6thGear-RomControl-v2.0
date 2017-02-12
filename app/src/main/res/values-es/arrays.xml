@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+<resources>
+    <string-array name="test_list_entries" translatable="false">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Let\'s make twenty</item>
+    </string-array>
+    <string-array name="test_list_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="theme_items">
+        <item>Tema claro</item>
+        <item>Tema oscuro</item>
+    </string-array>
+    <string-array name="backup_restore_items">
+        <item>Copia de seguridad</item>
+        <item>Restaurar copia</item>
+    </string-array>
+    <string-array name="thumbnail_items" translatable="false">
+        <item>Icon 1</item>
+        <item>Icon 2</item>
+    </string-array>
+    <string-array name="thumbnail_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="thumbnail_drawables" translatable="false">
+        <item>@drawable/icon_6</item>
+        <item>@drawable/icon_5</item>
+    </array>
+    <string-array name="custom_bg_type_entries">
+        <item>Imagen</item>
+        <item>Color sólido</item>
+        <item>Gradiente</item>
+    </string-array>
+    <string-array name="custom_bg_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="gradient_entries">
+        <item>De arriba a abajo</item>
+        <item>De abajo a arriba</item>
+        <item>De izquierda a derehca</item>
+        <item>De derecha a izquierda</item>
+    </string-array>
+    <string-array name="gradient_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="crop_entries" translatable="false">
+        <item>Center crop</item>
+        <item>Center inside</item>
+        <item>Fit XY</item>
+    </string-array>
+    <string-array name="crop_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toggle_entries" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="toggle_values" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_entries" translatable="false">
+        <item>Default</item>
+        <item>Leater Round</item>
+        <item>Leater Rounded</item>
+        <item>Leater Square</item>
+        <item>Dark light</item>
+        <item>Dished Metal</item>
+        <item>Metal circle</item>
+        <item>Green Glow</item>
+        <item>Sunstar</item>
+        <item>Chrome Square</item>
+        <item>Chrome</item>
+        <item>Bubble</item>
+        <item>LG-Sq</item>
+        <item>Sunrise</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_values" translatable="false">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="traffic_entries">
+        <item>Desactivado</item>
+        <item>Subida</item>
+        <item>Descarga</item>
+        <item>Ambos</item>
+    </string-array>
+    <string-array name="traffic_unit_entries">
+        <item>Bits por segundo</item>
+        <item>Bytes por segundo</item>
+        <item>KiloBytes por segundo</item>
+    </string-array>
+    <string-array name="traffic_unit_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="traffic_update_entries" translatable="false">
+        <item>500 ms</item>
+        <item>1000 ms</item>
+        <item>1500 ms</item>
+        <item>2000 ms</item>
+    </string-array>
+    <string-array name="traffic_update_values" translatable="false">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="traffic_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
