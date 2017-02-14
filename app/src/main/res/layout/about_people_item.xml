@@ -17,18 +17,20 @@
               android:orientation="horizontal"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:onClick="onClick">
+              android:onClick="onClick"
+    android:weightSum="1">
     <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="70dp"
         android:src="@drawable/icon_5"
         app:civ_border_width="0dp"
         android:layout_gravity="center_vertical"
         android:id="@+id/aboutPeopleIcon"
         android:layout_margin="16dp"
-        android:elevation="4dp"/>
+        android:elevation="4dp"
+        android:layout_weight="0.14"
+        android:layout_height="70dp" />
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="245.0dp"
         android:layout_height="wrap_content"
         android:gravity="start"
         android:layout_gravity="center_vertical"

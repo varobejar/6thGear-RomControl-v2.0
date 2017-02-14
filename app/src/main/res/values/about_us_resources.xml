@@ -46,16 +46,19 @@
         <item>@drawable/icon_4</item>
         <item>@drawable/icon_5</item>
         <item>@drawable/icon_6</item>
+        <item>@drawable/icon_7</item>
     </array>
-    <string-array name="about_team_names" translatable="false">
-        <item>Jcanonico - DEVELOPER</item>
-        <item>Hanss - DEVELOPER</item>
-        <item>Varobejar - DEVELOPER</item>
+    <string-array name="about_team_names">
+        <item>DEVELOPERS</item>
+        <item>Pafcholini - Jcanonico - Ivanebdesign - Varoo10 - Rimgoru - Hanns - Motomorini - Aukhan - VaroBejar - Infernum - Kabata - Placiano - Mianfri</item>
+        <item>TESTERS and COLABORATORS</item>
+        <item>Vanito - ErDavis - Cheza - Eploxtion - Benjaone - Manugm - Lonegan - Pulsar - Mikael Z</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>http://www.htcspain.com/foro/miembros/jcanonico/</item>
-        <item>http://www.htcspain.com/foro/miembros/hanss/</item>
-        <item>http://www.htcspain.com/foro/miembros/varobejar/</item>
+        <item>http://www.htcspain.com/</item>
+        <item>http://www.htcspain.com/</item>
+        <item>http://www.htcspain.com/</item>
+        <item>http://www.htcspain.com/</item>
     </string-array>
 
 

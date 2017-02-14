@@ -32,7 +32,6 @@
     <string name="backup_complete_toast">Copia de seguridad completa</string>
     <string name="backup_restore_dialog_title">Backup/Restore Rom Control system data</string>
     <string name="bloqueo">Bloqueo</string>
-    <string name="changelog_version_title">Versión Rom</string>
     <string name="choose_backup_dialog_title">Porfavor comprueba copia de seguridad a restaurar</string>
     <string name="command_executed_success_toast">Ejecutado Correctamente</string>
     <string name="confirm_script_dialog_message">¿Quieres que se inicie?</string>

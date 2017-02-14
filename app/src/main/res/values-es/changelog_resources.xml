@@ -11,29 +11,28 @@
     <string-array name="changelog_items">
         <item>Base DPL2</item>
         <item>Control Emotion v2.0</item>
-        <item>-------Modification in StatusBar</item>
-        <item>-------Modification in StatusBar Expanded Header</item>
-        <item>-------Types of Launcher</item>
-        <item>-------Types of SystemUI</item>
-        <item>-------Modificación in Keyguard</item>
-        <item>-------Apks Emotion</item>
-        <item>Light in toogles</item>
-        <item>Edge Panel</item>
-        <item>Apks Multidpi</item>
-        <item>Rom to 560dpi</item>
+        <item>-------Modificación de StatusBar</item>
+        <item>-------Modificación de Cortinilla</item>
+        <item>-------Tipos de Launcher</item>
+        <item>-------Tipos de SystemUI</item>
+        <item>-------Modificación en Bloqueo</item>
+        <item>-------Aplicaciones Emotion</item>
+        <item>Linterna en toogles</item>
+        <item>Panel del edge</item>
+        <item>Aplicaciones Multidpi</item>
+        <item>Rom a 560dpi</item>
         <item>Deodexed</item>
         <item>Zipaling</item>
-        <item>Support data</item>
+        <item>Soporte para data</item>
         <item>Kernel Emotion r27</item>
-        <item>Support Init.d</item>
-        <item>Tweaks of rendiment</item>
-        <item>Fix to written sd</item>
+        <item>Soporte para Init.d</item>
+        <item>Tweaks de rendimiento</item>
+        <item>Fix para escritura en sd</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog" translatable="false">R19</string>
 
 
 </resources>
